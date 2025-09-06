@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 
 def all_chai(request):
-  return render(request,'chai/all_chai.html')
+  return render(request,'app/all_chai.html')
 
 
 
